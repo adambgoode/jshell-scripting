@@ -1,3 +1,5 @@
+// Base64 from string
+// Usage: jshell base64.jsh
 import static java.lang.System.out
 import java.nio.charset.StandardCharsets
 

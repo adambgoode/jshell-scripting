@@ -1,4 +1,4 @@
-// HTTP Client
+// HTTP Client GET
 // jshell --add-modules jdk.incubator.httpclient http-get.jsh
 import jdk.incubator.http.*;
 
