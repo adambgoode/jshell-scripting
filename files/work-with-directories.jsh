@@ -2,11 +2,11 @@
 // Usage: jshell --class-path ../libs/commons-io.jar work-with-directories.jsh
 import org.apache.commons.io.FileUtils
 
-String content = "JShell Scripting";
-File file = new File("test.txt");
+String content = "JShell Scripting"
+File file = new File("test.txt")
 
 // Create text file
-FileUtils.writeStringToFile(file, content);
+FileUtils.writeStringToFile(file, content)
 
 // Move text file to newly created folder
 File folder = new File("folder")
